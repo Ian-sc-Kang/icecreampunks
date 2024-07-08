@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+}
+
+.logo:hover,
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* Neon Text */
+.logo {
+  margin-bottom: 5rem;
+  cursor: pointer;
+  transition: ease-out 500ms;
+  user-select: none;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow:
+    /* white glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    /* green glow */ 0 0 42px var(--main-color-scheme),
+    0 0 82px var(--main-color-scheme), 0 0 92px var(--main-color-scheme),
+    0 0 102px var(--main-color-scheme), 0 0 151px var(--main-color-scheme);
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 500ms;
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}
