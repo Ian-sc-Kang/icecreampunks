@@ -1,7 +1,16 @@
 {
-  "name": "Icecreampunks",
-  "version": "0.1.0",
-  "private": true,
+  "name": "icecreampunks",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A fun React application for creating custom ice cream punk characters with layered image composition",
+  "keywords": ["react", "image-editor", "canvas", "character-creator", "ice-cream"],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://yourusername.github.io/icecreampunks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/icecreampunks.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -19,7 +28,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
