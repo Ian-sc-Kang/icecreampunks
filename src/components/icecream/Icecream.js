@@ -52,7 +52,7 @@ function Icecream() {
       navigator
         .share({
           title: "Icecreampunks",
-          url: "https://www.google.com",
+          url: window.location.href,
         })
         .then(() => {})
         .catch(console.error);
