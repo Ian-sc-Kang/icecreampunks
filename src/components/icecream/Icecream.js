@@ -27,10 +27,10 @@ function Icecream() {
   });
 
   function addItem(item) {
-    if (item === "background") {
+    if (item === "mint-background") {
       setItemList([item, ...checkedItemList]);
       return;
-    } else if (item === "body1") {
+    } else if (item === "character-body") {
       let copyList = [...checkedItemList];
       copyList.splice(1, 0, item);
       setItemList(copyList);

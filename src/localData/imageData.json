@@ -1,73 +1,73 @@
 {
-  "cloth1": {
+  "jersey-shirt": {
     "id": 1,
-    "name": "cloth1",
+    "name": "jersey-shirt",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528478/jersey-removebg-preview_ivgbek.png",
     "zIndex": 1
   },
-  "hair1": {
+  "spiky-hair": {
     "id": 2,
-    "name": "hair1",
+    "name": "spiky-hair",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528478/hair-removebg-preview_sscqsj.png",
     "zIndex": 2
   },
-  "unknown1": {
+  "punk-accessory": {
     "id": 3,
-    "name": "unknown1",
+    "name": "punk-accessory",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528477/S__32129047-removebg-preview_b2gsk0.png",
     "zIndex": 3
   },
-  "unknown2": {
+  "face-decoration": {
     "id": 4,
-    "name": "unknown2",
+    "name": "face-decoration",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528477/S__32129039-removebg-preview_gvr39p.png",
     "zIndex": 4
   },
-  "cloth2": {
+  "casual-shirt": {
     "id": 0,
-    "name": "cloth2",
+    "name": "casual-shirt",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528477/S__32129048-removebg-preview_xqaxng.png",
     "zIndex": 5
   },
-  "icecream1": {
+  "waffle-cone": {
     "id": 0,
-    "name": "icecream1",
+    "name": "waffle-cone",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528478/icecreamcorn-removebg-preview_whpho0.png",
     "zIndex": 6
   },
-  "hair2": {
+  "long-hair": {
     "id": 0,
-    "name": "hair2",
+    "name": "long-hair",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528477/S__32129037-removebg-preview_gpliqz.png",
     "zIndex": 7
   },
-  "unknown3": {
+  "head-accessory": {
     "id": 0,
-    "name": "unknown3",
+    "name": "head-accessory",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528477/S__32129052-removebg-preview_bvgnrt.png",
     "zIndex": 8
   },
-  "eye1": {
+  "punk-eyes": {
     "id": 0,
-    "name": "eye1",
+    "name": "punk-eyes",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528478/eye-removebg-preview_ggegyd.png",
     "zIndex": 9
   },
-  "body1": {
+  "character-body": {
     "id": 0,
-    "name": "body1",
+    "name": "character-body",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632756655/unnamed_or6rv5.png",
     "zIndex": 10
   },
-  "icecream2": {
+  "ice-cream-scoop": {
     "id": 0,
-    "name": "icecream2",
+    "name": "ice-cream-scoop",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632528477/S__32129034-removebg-preview_h6n4p8.png",
     "zIndex": 11
   },
-  "background": {
+  "mint-background": {
     "id": 0,
-    "name": "background",
+    "name": "mint-background",
     "src": "https://res.cloudinary.com/db7ss52zt/image/upload/v1632529994/Mint-Color-solid-color-background_bvbi4z.jpg",
     "zIndex": 0
   }
