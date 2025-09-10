@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "private": false,
   "description": "A fun React application for creating custom ice cream punk characters with layered image composition",
-  "keywords": ["react", "image-editor", "canvas", "character-creator", "ice-cream"],
+  "keywords": [
+    "react",
+    "image-editor",
+    "canvas",
+    "character-creator",
+    "ice-cream"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "homepage": "https://yourusername.github.io/icecreampunks",
@@ -27,8 +33,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -49,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
